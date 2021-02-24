@@ -24,6 +24,6 @@ These gaps come from deleting messages/records.
 the writing methods will write the message to the end of the file.
 - If the mode is MODIFY, then the writing method will first write the message's records to empty record spaces within the file
 before writing to the end of the file.
-- The file Globals is a program with variables crucial for all files. Variables are stored there for re-usability and effeciency.
+- The file Globals is a program with variables crucial for all files. Variables are stored there for re-usability and efficiency.
 - Likewise, the file Utils has various methods used in multiple programs. They are stored there for cleanliness and effeciency.
 - Like its name says, FileIO is the program that controls the opening and closing of the data files.
